@@ -1,0 +1,26 @@
+.profile {
+  width: 193px;
+  height: 183px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+.imgContainer {
+  height: 57px;
+  width: 57px;
+  border-radius: 50%;
+  background-color: var(--primary-color-dark);
+}
+.name {
+  margin-top: 19px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.email {
+  font-weight: 400;
+  font-size: 12px;
+}

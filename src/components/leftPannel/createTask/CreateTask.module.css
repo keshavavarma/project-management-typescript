@@ -1,0 +1,32 @@
+.createTask {
+  width: 193px;
+  height: 183px;
+  background-color: var(--primary-color-dark);
+  margin-bottom: 45px;
+  border-radius: 29px;
+}
+.topSpan {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 26px;
+  text-align: center;
+}
+.bottomSpan {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 55px;
+  text-align: center;
+}
+.button {
+  display: block;
+  margin: 0 auto;
+  height: 24px;
+  width: 24px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: var(--primary-color-dark);
+}
