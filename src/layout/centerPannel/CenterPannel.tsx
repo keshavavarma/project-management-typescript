@@ -10,12 +10,12 @@ const CenterPannel = () => {
       <div className={styles.heading}>Reports</div>
       <div className={styles.centerPannel}>
         <div className={styles.columnOne}>
-          {/* <Description />
-          <Tasks /> */}
+          <Description />
+          <Tasks />
         </div>
         <div className={styles.columnTwo}>
-          {/* <Analytics />
-          <Progress /> */}
+          <Analytics />
+          <Progress />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 .analytics {
-  width: 337px;
-  height: 365px;
+  width: 20rem;
+  height: 21rem;
   background-color: var(--primary-color);
   border-radius: 30px;
 }
@@ -8,6 +8,6 @@
   font-size: 16px;
   font-weight: 600;
   color: var(--primary-color-dark);
-  padding-top: 24px;
-  padding-left: 24px;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
 }

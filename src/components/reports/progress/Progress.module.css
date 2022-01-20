@@ -1,6 +1,6 @@
 .progress {
-  max-height: 340px;
-  width: 337px;
+  height: 21rem;
+  width: 20rem;
 }
 .heading {
   font-weight: 600;
@@ -14,9 +14,9 @@
   align-items: center;
 }
 .progressCard {
-  height: 85px;
-  width: 325px;
+  height: 5rem;
+  width: 20rem;
   background-color: var(--primary-color);
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   border-radius: 20px;
 }
