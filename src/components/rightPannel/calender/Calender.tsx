@@ -4,8 +4,7 @@ const Calender = () => {
   return (
     <div className={styles.calender}>
       <h3>March 2021</h3>
-      {/* table for dates */}
-      <div></div>
+      <div className={styles.dates}></div>
     </div>
   );
 };

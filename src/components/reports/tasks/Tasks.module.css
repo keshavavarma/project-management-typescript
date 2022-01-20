@@ -29,9 +29,54 @@
   flex-direction: column;
 }
 .task {
+  box-sizing: border-box;
+  padding: 1rem;
   width: 20rem;
   min-height: 12rem;
   margin-top: 1rem;
   background-color: var(--primary-color);
   border-radius: 20px;
+  position: relative;
+}
+
+.meta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.imgContainer {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 1rem;
+  background-color: var(--primary-color-dark);
+}
+.name {
+  height: 3.5rem;
+}
+.name > h4 {
+  margin: 0;
+  color: vvar(--primary-color-dark);
+  font-weight: 700;
+  font-size: 16px;
+}
+.name > p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+}
+.description {
+  font-weight: 400;
+  font-size: 15px;
+}
+.btn {
+  position: absolute;
+  right: 0.5rem;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 1em;
+  background-color: var(--primary-color-dark);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  align-self: flex-end;
 }

@@ -9,8 +9,34 @@ const Tasks = () => {
         <div className={styles.tab}>Completed</div>
       </div>
       <div className={styles.taskList}>
-        <div className={styles.task}></div>
-        <div className={styles.task}></div>
+        <div className={styles.task}>
+          <div className={styles.meta}>
+            <div className={styles.imgContainer}></div>
+            <div className={styles.name}>
+              <h4>Figma</h4>
+              <p>Figma Community</p>
+            </div>
+          </div>
+          <p className={styles.description}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia,
+            at!
+          </p>
+          <button className={styles.btn}>Finish Task</button>
+        </div>
+        <div className={styles.task}>
+          <div className={styles.meta}>
+            <div className={styles.imgContainer}></div>
+            <div className={styles.name}>
+              <h4>Figma</h4>
+              <p>Figma Community</p>
+            </div>
+          </div>
+          <p className={styles.description}>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia,
+            at!
+          </p>
+          <button className={styles.btn}>Finish Task</button>
+        </div>
       </div>
     </div>
   );
