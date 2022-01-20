@@ -1,12 +1,12 @@
 .profile {
-  width: 193px;
-  height: 183px;
+  width: 12rem;
+  height: 11.5rem;
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 45px;
+  margin-top: 2.8rem;
 }
 .imgContainer {
   height: 57px;
@@ -15,8 +15,8 @@
   background-color: var(--primary-color-dark);
 }
 .name {
-  margin-top: 19px;
-  margin-bottom: 10px;
+  margin-top: 1.2rem;
+  margin-bottom: 0.625rem;
   font-weight: 700;
   font-size: 16px;
 }

@@ -1,0 +1,13 @@
+.analytics {
+  width: 337px;
+  height: 365px;
+  background-color: var(--primary-color);
+  border-radius: 30px;
+}
+.heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-color-dark);
+  padding-top: 24px;
+  padding-left: 24px;
+}
