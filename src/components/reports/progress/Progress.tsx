@@ -1,37 +1,14 @@
 import React from "react";
 import styles from "./Progress.module.css";
+import ProgressCard from "./ProgressCard";
 const Progress = () => {
   return (
     <div className={styles.progress}>
       <p className={styles.heading}>Tim Progress</p>
       <div className={styles.progressList}>
-        <div className={styles.progressCard}>
-          <div className={styles.meta}>
-            <div className={styles.imgContainer}></div>
-            <div className={styles.name}>
-              <h4>Carrol</h4>
-              <p>Prepare file</p>
-            </div>
-          </div>
-        </div>
-        <div className={styles.progressCard}>
-          <div className={styles.meta}>
-            <div className={styles.imgContainer}></div>
-            <div className={styles.name}>
-              <h4>Carrol</h4>
-              <p>Prepare file</p>
-            </div>
-          </div>
-        </div>
-        <div className={styles.progressCard}>
-          <div className={styles.meta}>
-            <div className={styles.imgContainer}></div>
-            <div className={styles.name}>
-              <h4>Carrol</h4>
-              <p>Prepare file</p>
-            </div>
-          </div>
-        </div>
+        <ProgressCard name="Margaret" task="UI Design" />
+        <ProgressCard name="Carol" task="Prepare file" />
+        <ProgressCard name="Andica" task="UX Research" />
       </div>
     </div>
   );
